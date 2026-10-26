@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+bundle/
+
+# Hardhat artifacts and cache
+artifacts/
+cache/
+typechain-types/
+types/
+coverage/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+backend/atlas-credentials.env
+
+# Other generated files
+*.log
+.gas-snapshot
+snapshots/
+
+# Local settings
+.sf/
+*.lnk
